@@ -1,0 +1,540 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keyword" content="">
+
+    <title> 1-3rd Residence </title>
+
+    <!-- icon -->
+    <link rel="icon" type="image/png" href="">
+
+    <!-- main css -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Plugin Css-->
+    <link href="css/plugins/datapicker/datepicker3.css" rel="stylesheet">
+    <link href="css/plugins/chosen/chosen.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+
+    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/superslids.css" rel="stylesheet">
+    <link href="css/customize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,500,600,700" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <!-- Top Header -->
+    <header class="site-header">
+        <nav class="site-nav transparent" >
+            <div class="container">
+                <a href=""><img class="logo" src="images/1-3-logo-white.png"></a>
+                <div class="float-right site-header-content">
+                    <a class="btn-sign-in" style="" href="">Log in</a>
+                    <a class="btn-sign-in" style="" href="">Contact</a>
+                    <ul style="font-weight: 100;" class="dropdown" data-toggle="lang-dropdown">
+                        <li>
+                            <a href="javascript:void(0)"> English <span class="caret"></a>
+                        </li>
+                        <ul class="dropdown-menu">
+                            <li><a href="">简体中文</a></li>
+                            <li><a href="">日本語</a></li>
+                        </ul>
+                    </ul>
+                    <button class="navbar-toggle nav-toggle">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="nav-mobile">
+                    <ul style="">
+                        <li><a href="">Log in</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">简体中文</a></li>
+                        <li><a href="">日本語</a></li>
+                        <li><a href="">English</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">Apartments</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Media</a></li>
+                        <li><a href="">FAQs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+	</header>
+
+    <!-- Second Header fizes on top -->
+	<nav class="subnav-wrapper subnav hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul id="menu-for-customers" class="justify">
+                        <li id="" class="menu-item"><a href="" class="">Apartments</a></li>
+                        <li id="" class="menu-item"><a href="about.html" class="">About US</a></li>
+                        <li id="" class="menu-item"><a href="" class="">Media</a></li>
+                        <li id="" class="menu-item"><a href="help.html" class="">FAQs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--  Header carousel and Instant Book-->
+    <section id="bookNow">
+        <div class="container animated fadeInRight">
+            <div class="booking-box">
+                <div class="box-head">
+                    <h3>1/3rd Residence Tokyo Serviced Apartments</h3>
+                    <p>Fully furnished designer accommodation in the heart of Tokyo</p>
+                </div>
+                <div class="box-content">
+                    <div class="row">
+                        <div class="" method="get" action="#">
+                            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                <div class="form-group">
+                                    <select data-placeholder="Choose a Country..." class="form-control chosen-select" multiple style="width:100%;">
+                                        <option value="">Select</option>
+                                        <option value="">Tokyo - ALL locations</option>
+                                        <option value="">Akihabara, Tokyo</option>
+                                        <option value="">Ikebukuro, Tokyo</option>
+                                        <option value="">Nihombashi, Tokyo</option>
+                                        <option value="">Akasaka, Tokyo</option>
+                                        <option value="">Shinjuku, Tokyo</option>
+                                        <option value="">Shibuya, Tokyo</option>
+                                        <option value="">Yoyogi, Tokyo</option>
+                                        <option value="">Harajuku, Tokyo</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-sm-4 col-xs-6">
+                                <div class="form-group" id="start_date">
+                                    <div class="input-daterange" id="datepicker">
+                                        <input type="text" placeholder="arrival date" class="form-control" name="start" value=""/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-sm-4 col-xs-6">
+                                <div class="form-group" id="end_date">
+                                    <div class="input-daterange" id="datepicker">
+                                        <input type="text" placeholder="departure date" class="form-control" name="end" value="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-sm-4 col-xs-12">
+                                <div class="form-group">
+                                    <select data-placeholder="Choose a Country..." class="form-control chosen-select" style="width:100%;">
+                                        <option value="">Select</option>
+                                        <option value="">1 Guest</option>
+                                        <option value="">2 Guest</option>
+                                        <option value="">3 Guest</option>
+                                        <option value="">4 Guest</option>
+                                        <option value="">5 Guest</option>
+                                        <option value="">6 Guest</option>
+                                        <option value="">7 Guest</option>
+                                        <option value="">8 Guest</option>
+                                        <option value="">9 Guest</option>
+                                        <option value="">10 Guest</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12">
+                                <a href="availiblity.html">
+                                    <button class="btn btn-block btn-search"> Search <span class="icon"><i class="fa fa-search"></i></span></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <div class="section-title" align="center">
+                        <h2 class=""> Our Services </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden-xs row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-service mb-30">
+                        <div class="service-icon">
+                            <i class="fa fa-train"></i>
+                        </div>
+                        <div class="service-text">
+                            <h4>Best Locations</h4>
+                            <p>Best Locations and easy accesblity from the train station</p>
+                            <span> Read More <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-service mb-30">
+                        <div class="service-icon">
+                            <i class="fa fa-language"></i>
+                        </div>
+                        <div class="service-text">
+                            <h4> Caring Staff </h4>
+                            <p> We are loving caring multilingual Staff. read about US </p>
+                            <span> Read More <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-service mb-30">
+                        <div class="service-icon">
+                            <i class="fa fa-money"></i>
+                        </div>
+                        <div class="service-text">
+                            <h4>Easy Payment Methods</h4>
+                            <p> We have very easy payment methods. All kinds of methods</p>
+                            <span> Read More <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-service mb-30">
+                        <div class="service-icon">
+                            <i class="fa fa-trophy"></i>
+                        </div>
+                        <div class="service-text">
+                            <h4>Quality Assurance</h4>
+                            <p>Awesome Quality of producatds. Houses are net and clean </p>
+                            <span> Read More <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="visible-xs row">
+                <div class="col-xs-12">
+                    <div class="single-service-xs mb-30">
+                        <div class="service-icon">
+                            <span class="span1">
+                                <i class="fa fa-train"></i><h4>Best Locations</h4>
+                            </span>
+                            <span class="span2"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="single-service-xs mb-30">
+                        <div class="service-icon">
+                            <span class="span1">
+                                <i class="fa fa-language"></i><h4> Caring Staff </h4>
+                            </span>
+                            <span class="span2"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="single-service-xs mb-30">
+                        <div class="service-icon">
+                            <span class="span1">
+                                <i class="fa fa-money"></i><h4>Easy Payment Methods</h4>
+                            </span>
+                            <span class="span2"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="single-service-xs mb-30">
+                        <div class="service-icon">
+                            <span class="span1">
+                                <i class="fa fa-trophy"></i><h4>Quality Assurance</h4>
+                            </span>
+                            <span class="span2"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Top Recomendations of the houses -->
+    <section id="recomendations">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <div class="section-title" align="center">
+                        <h2 class=""> Popular Accommodations </h2>
+                    </div>
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="hotel-box thumbnail">
+                        <img src="images/rooms/1.jpg" alt="">
+                        <div class="caption">
+                            <span class="stars color-green" data-rating="4" data-num-stars="5" ></span>
+                            <h4>Deluxe one Bedroom</h4>
+                            <p>Centrally located in one of Tokyo's most sort after areas, our Deluxe 2 Bedroom apartments are perfect for any sized family. </p>
+                            <h4><i class="fa fa-map-marker color-green"></i> Akihabara, Tokyo </h4>
+                            <p> starts from <i class="fa fa-jpy color-green" aria-hidden="true"></i> <span class="rent">17,000 </span>/ night </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="hotel-box thumbnail">
+                        <img src="images/rooms/2.jpg" alt="">
+                        <div class="caption">
+                            <span class="stars color-green " data-rating="4" data-num-stars="5" ></span>
+                            <h4>Deluxe one Bedroom</h4>
+                            <p>Centrally located in one of Tokyo's most sort after areas, our Deluxe 2 Bedroom apartments are perfect for any sized family. </p>
+                            <h4><i class="fa fa-map-marker color-green"></i> Akihabara, Tokyo </h4>
+                            <p> starts from <i class="fa fa-jpy color-green " aria-hidden="true"></i> <span class="rent">17,000 </span>/ night </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="hotel-box thumbnail">
+                        <img src="images/rooms/3.jpg" alt="">
+                        <div class="caption">
+                            <span class="stars color-green" data-rating="3" data-num-stars="5" ></span>
+                            <h4>Deluxe one Bedroom</h4>
+                            <p>Centrally located in one of Tokyo's most sort after areas, our Deluxe 2 Bedroom apartments are perfect for any sized family. </p>
+                            <h4><i class="fa fa-map-marker color-green"></i> Akihabara, Tokyo </h4>
+                            <p> starts from <i class="fa fa-jpy color-green"  aria-hidden="true"></i> <span class="rent">17,000 </span>/ night </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="hotel-box thumbnail">
+                        <img src="images/rooms/4.jpg" alt="">
+                        <div class="caption">
+                            <span class="stars color-green" data-rating="3" data-num-stars="5" ></span>
+                            <h4>Deluxe one Bedroom</h4>
+                            <p>Centrally located in one of Tokyo's most sort after areas, our Deluxe 2 Bedroom apartments are perfect for any sized family. </p>
+                            <h4><i class="fa fa-map-marker color-green"></i> Akihabara, Tokyo </h4>
+                            <p> starts from <i class="fa fa-jpy color-green" aria-hidden="true"></i> <span class="rent">17,000 </span>/ night </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <div class="section-title" align="center">
+                        <h2 class="carousel-title"> What people say about us ??</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" data-wow-delay="0.2s">
+                    <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="images/testimonials/pooh.png" alt="">
+                            </li>
+                            <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="images/testimonials/mickey.png" alt="">
+                            </li>
+                            <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="images/testimonials/pluto.png" alt="">
+                            </li>
+                            <li data-target="#quote-carousel" data-slide-to="3"><img class="img-responsive" src="images/testimonials/daisy.png" alt="">
+                            </li>
+                        </ol>
+                        <div class="carouselClient carousel slide">
+                            <div class="carousel-inner text-center">
+                                <div class="item active">
+                                    <div class="row">
+                                        <div class="col-sm-8 col-sm-offset-2">
+                                            <p class="statement">
+                                                This is a spacious, clean apartment with good kitchen and laundry facilities, liked the large wet room and separate toilet. An excellent location with easy walking access to multiple subway lines that took us to many of Tokyo's attractions. The apartment is close to department stores, supermarkets and a variety of restaurants and cafes. Portable wifi was a nice touch and very handy. Definitely worth a stay.
+                                            </p>
+                                            <p class="client-name"> -Shaun and Lynne, Australia <small>TRIP ADVISOR</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-sm-8 col-sm-offset-2">
+                                            <p class="statement">
+                                                The location of this place is exactly what I hope it would be; a short walk to the main street of Akihabara. Ryu (the guy who tended to me) can speak really good English and he gave me a lot of recommendations on Akihabara (including which maid cafe to visit!) for my one night stay there.
+                                                <br/>Great location. And special thanks to Ryu who gave me good recommendations around Akihabara. Do let me know if you are dropping by in Singapore. I wouldn't mind bringing you around. :)
+                                            </p>
+                                            <p class="client-name"> -Kenneth, Ng <small>AirBnB</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-sm-8 col-sm-offset-2">
+                                            <p class="statement">
+                                                Pros: The Akasaka location was quiet (for Tokyo) but a short stroll led to two Tokyo Metro stops and some nice restaurants.
+                                                <br/>Cons: One of the two fridges provided was a little noisy.
+                                                <br/>Location: Akasaka is a pretty well-to-do part of Tokyo, so plenty of good restaurants, and easy Metro access to the rest of Tokyo.
+                                                <br/>The apartment was well located in Akasaka and well-equipped for a short to mid term stay. Check In was handled via an email notification of an access PIN to enter the apartment which all worked perfectly. The apartment was clean and comfortable, and able to handle the rigours of two adults and two kids for three nights.
+                                            </p>
+                                            <p class="client-name"> -Derek, Melbourne <small>Expedia, 5 out of 5</small>  </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-sm-8 col-sm-offset-2">
+                                            <p class="statement">
+                                                <br/>A great cool place in a charming neighborhood spacious, loved the tatami beds ( and the bed in the bedroom) great customer service loved our walk to Yoyogi Park during the Hanami season.
+                                            </p>
+                                            <p class="client-name"> -Anne-ev, Singapore <small>Booking.com</small> </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                        <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram posts 
+    <section id="instagram">
+        <script src="//assets.juicer.io/embed.js" type="text/javascript"></script>
+        <link href="//assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
+        <ul class="juicer-feed" data-feed-id="onethirdresidence"></ul>
+    </section>-->
+
+    <!-- footer -->
+     <footer>
+        <div class="container">
+            <div class="row footer-container xs-center">
+                <div class="col-xs-12">
+                    <span class="border-top"></span>
+                </div>
+                <div class="col-xs-12 col-sm-6 main-column">
+                    <img class="logo" width="114" height="42" src="">
+                    <div class="main-menu-wrapper">
+                            <ul class="socialmedia-btns">
+                                <li>
+                                    <a href="" class="btn-social btn-outline"><i class="fa fa-2x fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn-social btn-outline"><i class="fa fa-2x fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn-social btn-outline"><i class="fa fa-2x fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn-social btn-outline"><i class="fa fa-2x fa-linkedin"></i></a>
+                                </li>
+
+                                
+                            </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-2">
+                    <div id="" class="widget widget_nav_menu">
+                        <p class="negative title"><strong>About Us</strong></p>
+                        <div class="menu-for-customers-container">
+                            <ul id="menu-for-customers-1" class="menu">
+                                <li class="menu-item"><a href="" class="menu-image-title-after">Company</span></a></li>
+                                <li class="menu-item"><a href="" class="menu-image-title-after">Press</span></a></li>
+                                <li class="menu-item"><a href="" class="menu-image-title-after">Access</a></li>
+                                <li class="menu-item"><a href="" class="menu-image-title-after">Staff</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-2">
+                    <div id="" class="widget widget_nav_menu">
+                        <p class="negative title"><strong> For Customes</strong></p>
+                        <div class="menu-for-customers-container">
+                            <ul id="menu-for-customers-1" class="menu">
+                                <li class="menu-item"><a href="" class="menu-image-title-after">Our Apartents</span></a></li>
+                                <li class="menu-item"><a href="" class="menu-image-title-after">About the location</span></a></li>
+                                <li class="menu-item"><a href="" class="menu-image-title-after">Payment Methods</a></li>
+                                <li class="menu-item"><a href="" class="menu-image-title-after">Services</a></li>
+                                <li class="menu-item"><a href="" class="menu-image-title-after">Quality</a></li>                                
+                                <li class="menu-item"><a href="" class="menu-image-title-after">FAQS</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-2">
+                    <div id="" class="widget widget_nav_menu">
+                        <p class="negative title"><strong>Legal</strong></p>
+                        <div class="menu-for-customers-container">
+                            <ul id="menu-for-customers-1" class="menu">
+                                <li class="menu-item"><a href="" class="menu-image-title-after">Privacy</span></a></li>
+                                <li class="menu-item"><a href="" class="menu-image-title-after">Policies</span></a></li>
+                                <li class="menu-item"><a href="" class="menu-image-title-after">Terms of service</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix visible-xs"></div>
+                <div class="col-sm-2 col-sm-offset-10 copy">
+                    <p class="negative">&copy; 1-3rd Inc.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- main JS-->
+    <script type='text/javascript' src='js/jquery.js'></script>
+    <script type='text/javascript' src='js/bootstrap.js'></script>
+    <script type='text/javascript' src='js/carousel.js'></script>
+    <script type='text/javascript' src='js/style.js'></script>
+    
+    <!-- Plugin JS-->
+    <script src="js/plugins/datapicker/bootstrap-datepicker.js"></script>
+    <script src="js/plugins/chosen/chosen.jquery.js"></script>
+
+    <script>
+        //BookNow form date-picker
+        $('#start_date .input-daterange').datepicker({
+            keyboardNavigation: false,
+            forceParse: false,
+            autoclose: true
+        });
+        //BookNow form date-picker
+        $('#end_date .input-daterange').datepicker({
+            keyboardNavigation: false,
+            forceParse: false,
+            autoclose: true
+        });
+
+        //BookNow form Chosen plugin
+        var config = {
+            '.chosen-select'           : {},
+            '.chosen-select-deselect'  : {allow_single_deselect:true},
+            '.chosen-select-no-single' : {disable_search_threshold:10},
+            '.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
+            '.chosen-select-width'     : {width:"95%"}
+        }
+        for (var selector in config) {
+            $(selector).chosen(config[selector]);
+        }
+    </script>
+
+</body>
+</html>

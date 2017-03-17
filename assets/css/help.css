@@ -1,0 +1,45 @@
+.help {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.help h5 {
+    font-size: 30px;
+}
+
+.panel .panel-heading {
+    color: #847b72;
+}    
+
+a:focus, a:hover {
+    color: #8dc63f;
+}
+    
+.faqHeader {
+    font-size: 27px;
+    margin: 20px;
+}
+
+.panel-heading [data-toggle="collapse"]:after {
+    font-family: 'Glyphicons Halflings';
+    content: "+"; 
+    float: right;
+    color: #8dc63f;
+    font-size: 18px;
+    line-height: 22px;
+    /* rotate "play" icon from > (right arrow) to down arrow */
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.panel-heading [data-toggle="collapse"].collapsed:after {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    color: #454444;
+}
