@@ -1,0 +1,66 @@
+/* Carousel */
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+}
+@media (max-width: 768px) {
+    #quote-carousel {
+        padding: 0 50px 30px 80px;
+    }  
+}
+.carousel-title {
+    color: #58595b;
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #58595B;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    border: 4px solid #CCC;
+    border-radius: 50px;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+#quote-carousel .carousel-indicators .active {
+    background: #333333;
+    width: 80px;
+    height: 88px;
+    border-radius: 100px;
+    border-color: #58595b;
+    opacity: 1;
+   
+}
+.carousel-inner {
+    min-height: 200px;
+}
+#quote-carousel .statement {
+    color:#000;
+    font-weight: 500;
+    text-align: left;
+    font-size: 17px;
+}
+.client-name {
+    font-size: 17px;
+    color: #58595b;
+    font-weight: 600;
+}
+.client-name small {
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+}
