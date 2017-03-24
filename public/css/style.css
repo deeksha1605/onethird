@@ -969,11 +969,11 @@ pre code {
 }
 @media (min-width:992px) {
     .container {
-    width: 976px;
+    width: 986px;
 }
 }@media (min-width:1200px) {
     .container {
-    width: 1080px;
+    width: 1280px;
 }
 }.row {
     margin-left: -18px;
@@ -4338,7 +4338,7 @@ blockquote {
     background-color: #1cad7e;
 }
 body section:nth-of-type(1) {
-    text-align: center;
+    text-align: left;
 }
 body section:nth-of-type(1).xs-align-left {
     text-align: left;

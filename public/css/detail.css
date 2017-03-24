@@ -1,0 +1,45 @@
+.img-responsive {
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+}
+.slick-prev:before, .slick-next:before {
+    color: #8DC63F !important;
+    z-index: 1000 !important;
+    font-size: 25px !important;
+}
+.slick-prev {
+    left: 0 !important;
+}
+
+.slick-next {
+    right: 0 !important;
+}
+
+.panel-heading {
+    padding: 0 !important;
+}
+
+.panel-body {
+    font-weight: 600;
+}
+.panel-title {
+    margin-bottom: 10px;
+}
+
+.price {
+    text-align: center;
+}
+.price h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+.price span {
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+.policies {
+    border: 2px solid #d3d3d3;
+    padding: 20px;
+}
